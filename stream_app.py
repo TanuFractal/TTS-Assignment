@@ -9,7 +9,6 @@ import nltk
 import os
 import sys
 
-st.write(f"Python version: {sys.version}")
 
 nltk.download("punkt_tab")
 
@@ -71,6 +70,7 @@ def text_to_speech(chunks, output_folder="tts_outputs"):
 st.set_page_config(page_title="PDF to Podcast", layout="centered")
 st.title("PDF to Audio Summary")
 st.write("Upload a PDF and get a summarized audio version.")
+# st.write(f"Python version: {sys.version}")
 
 uploaded_file = st.file_uploader("Upload PDF", type=["pdf"])
 
