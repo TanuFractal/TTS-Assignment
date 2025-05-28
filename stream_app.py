@@ -7,6 +7,9 @@ from pydub import AudioSegment
 import tempfile
 import nltk
 import os
+import sys
+
+st.write(f"Python version: {sys.version}")
 
 nltk.download("punkt_tab")
 
