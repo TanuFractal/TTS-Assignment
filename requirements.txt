@@ -1,0 +1,8 @@
+streamlit
+transformers
+nltk
+gtts
+PyMuPDF
+pandas
+pydub
+ffmpeg-python
